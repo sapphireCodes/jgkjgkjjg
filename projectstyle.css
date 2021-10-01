@@ -1,0 +1,21 @@
+.section1{
+    background-color:antiquewhite;
+}
+.main{
+   align-items: center;
+}
+#slider{
+    display:block;
+    width:100vw;
+    margin:auto;
+    height:600px;
+    overflow:hidden;
+    background-color:aquamarine;
+}
+#slider img{
+    position:absolute;
+    width:500px;
+    height:400px;
+    margin:auto;
+    display:none;
+}

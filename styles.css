@@ -1,0 +1,91 @@
+body{
+    background-color:green;
+   background-image:linear-gradient(to bottom right,rgb(243, 194, 103),pink);
+}
+.header,.footer{
+    width:90vw;
+    height:30vh;
+    background-color: rgba(127, 255, 212,0.2);
+    margin:auto;
+    padding:1%;
+    overflow:hidden;
+    border:3px rgb(134, 134, 158) solid;
+    border-radius:5% 20%;
+    box-shadow: gray 5px 10px 20px;
+    box-sizing: border-box;
+}
+.header>h1{
+text-align: center;
+background-color: bisque;
+width:fit-content;
+margin:auto;
+padding:0.5%;
+}
+#logopic{
+    border-radius: 50%;
+    width:100px;
+    position:fixed;
+    z-index:auto;
+    top:20px;
+}
+.header>nav{
+    margin-left:150px;
+}
+.header>nav li{
+    list-style-type: none;
+}
+.header>nav a{
+    text-decoration: none;
+    float:left;
+    margin:2% 5%;
+    background-color: bisque;
+    padding:0.5%;
+    border-radius: 10%;
+    box-shadow: rgb(236, 7, 45) 5px 10px 10px;
+    transition:1s;
+}
+.header>nav a:hover{
+  background-color:rgb(35, 56, 56);
+    color:white;
+}
+.icons{
+    float:right;
+}
+#footericons{
+    margin:auto;
+}
+.icons img{
+    width:40px;
+    margin:5px;
+}
+.main{
+  overflow:hidden;
+    height:auto;
+    background-color:rgb(128, 176, 224);
+    padding:1%;
+    display:block;
+    
+}
+.section1,.section2{
+    width:40vw;
+    
+    margin:1%;
+
+}
+.section1{
+    float:left;
+}
+.section2{
+    float:right;
+}
+table,th,td{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+summary{
+    text-decoration: underline;
+}
+p{
+    font-family: 'Bonheur Royale', cursive;
+  font-size:300%;
+}
